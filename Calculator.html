@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Calculator.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator">
+            <input type="text" placeholder="0" id="result">
+            <button onclick="display('%')" class="operands">%</button>
+            <button onclick="Clear()" class="clear">C</button>
+            <button onclick="backspace()" class="numbers">&larr;</button>
+            <button onclick="display('/')" class="operands">/</button>
+            <button onclick="display('7')" class="numbers">7</button>
+            <button onclick="display('8')" class="numbers">8</button>
+            <button onclick="display('9')" class="numbers">9</button>
+            <button onclick="display('*')" class="operands">*</button>
+            <button onclick="display('4')" class="numbers">4</button>
+            <button onclick="display('5')" class="numbers">5</button>
+            <button onclick="display('6')" class="numbers">6</button>
+            <button onclick="display('-')" class="operands">-</button>
+            <button onclick="display('1')" class="numbers">1</button>
+            <button onclick="display('2')" class="numbers">2</button>
+            <button onclick="display('3')" class="numbers">3</button>
+            <button onclick="display('+')" class="operands">+</button>
+            <button onclick="display('.')" class="numbers">.</button>
+            <button onclick="display('0')" class="numbers">0</button>
+            <button onclick="calculate()" class="equals">=</button>
+        </div>
+    </div>
+    <script src="Calculator.js"></script>
+</body>
+
+</html>
